@@ -25,7 +25,7 @@
 		<div class="guild" class:selected={!selectedGuildId}>
 			<!-- if root path -->
 			<div class="guild-selected-indicator" />
-			<div class="home-guild">HOME</div>
+			<img src="/logo.png" alt="Logo d'Epsius" />
 		</div>
 	</a>
 	<hr>
@@ -35,7 +35,7 @@
 			<a href="/channels/{guild._id}">
 				<div class="guild" on:contextmenu|preventDefault={e=>onRightClick(e, guild._id)} class:selected={selectedGuildId === guild._id}>
 					<div class="guild-selected-indicator" />
-					<img src={checkUrl(guild.icon)} alt={guild.name} on:error={e => (e.target.src = "/favicon.png")} />
+					<img src={checkUrl(guild.icon)} alt={guild.name} on:error={e => (e.target.src = "/logo.png")} />
 				</div>
 			</a>
 		{/each}

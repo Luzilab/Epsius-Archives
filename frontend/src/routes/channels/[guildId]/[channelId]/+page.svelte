@@ -41,7 +41,7 @@
 </script>
 
 <svelte:head>
-    <title>{data.channel?.name ?? "Unknown channel"} | DiscordChatExporter frontend</title>
+    <title>{data.channel?.name ?? "Unknown channel"} | Epsius Archive</title>
 </svelte:head>
 
 <svelte:window on:hashchange={()=>updateStartPosition()}/>

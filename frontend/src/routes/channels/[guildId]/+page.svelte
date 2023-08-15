@@ -7,7 +7,7 @@
 </div>
 
 <svelte:head>
-    <title>{data.guild.name} | DiscordChatExporter frontend</title>
+    <title>{data.guild.name} | Epsius Archives</title>
 </svelte:head>
 
 <style>

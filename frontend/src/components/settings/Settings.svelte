@@ -27,7 +27,7 @@
 </script>
 
 <svelte:head>
-	<title>DiscordChatExporter frontend</title>
+	<title>Epsius Archives</title>
 	<meta name="description" content="View your JSON DiscordChatExporter exports as if you were using Discord interface"/>
 </svelte:head>
 
